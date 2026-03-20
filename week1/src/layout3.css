@@ -1,0 +1,149 @@
+.wrap{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+}
+
+.logo{
+    background-color: #CCCCCC;
+    width: 200px;
+    Height: 100px;
+}
+
+.nav{
+    background-color: #3B5A42;
+    width: 1050px;
+    Height: 100px;
+}
+
+main{
+    background-color: #DCD7CB;
+    width: 100%;
+    Height: 880px;
+}
+
+.main_top{
+    display: flex;
+    position: relative;
+}
+
+.top_left{
+    position: relative;
+}
+
+.top_top{
+    background-image: url("./img/layout3_1.png");
+    background-size: cover;
+    position: relative;
+    width: 700px;
+    height: 190px;
+    top: 50px;
+    left: 50px;
+}
+
+.top_bot{
+    background-image: url("./img/layout3_2.png");
+    background-size: cover;
+    position: relative;
+    width: 700px;
+    height: 190px;
+    top: 70px;
+    left: 50px;
+}
+
+.top_right{
+    background-image: url("./img/layout3_3.png");
+    background-size: cover;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 50px;
+    left: 100px;
+}
+
+.main_bot{
+    display: flex;
+    position: relative;
+}
+
+.bot_top{
+    display: flex;
+    position: relative;
+}
+
+.top_box1{
+    background-color: #A1B189;
+    position: relative;
+    width: 150px;
+    Height: 150px;
+    top: 80px;
+    left: 50px;
+}
+
+.top_box2{
+    background-color: #A1B189;
+    position: relative;
+    width: 150px;
+    Height: 150px;
+    top: 80px;
+    left: 70px;
+}
+
+.top_box3{
+    background-color: #A1B189;
+    position: relative;
+    width: 150px;
+    Height: 150px;
+    top: 80px;
+    left: 90px;
+}
+
+.bot_bot{
+    display: flex;
+    position: relative;
+}
+
+.bot_box1{
+    background-color: #A1B189;
+    position: relative;
+    width: 150px;
+    Height: 150px;
+    top: 100px;
+    left: 50px;
+}
+
+.bot_box2{
+    background-color: #A1B189;
+    position: relative;
+    width: 150px;
+    Height: 150px;
+    top: 100px;
+    left: 70px;
+}
+
+.bot_box3{
+    background-color: #A1B189;
+    position: relative;
+    width: 150px;
+    Height: 150px;
+    top: 100px;
+    left: 90px;
+}
+
+.bot_right{
+    background-color: #588158;
+    position: relative;
+    width: 615px;
+    Height: 320px;
+    top: 80px;
+    left: 140px;
+}
+
+footer{
+    background-color: #334E41;
+    width: 100%;
+    Height: 100px;
+}
