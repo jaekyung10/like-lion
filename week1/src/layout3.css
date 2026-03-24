@@ -79,7 +79,7 @@ main{
     position: relative;
     width: 150px;
     Height: 150px;
-    top: 80px;
+    top: 105px;
     left: 50px;
 }
 
@@ -88,8 +88,8 @@ main{
     position: relative;
     width: 150px;
     Height: 150px;
-    top: 80px;
-    left: 70px;
+    top: 105px;
+    left: 73px;
 }
 
 .top_box3{
@@ -97,8 +97,8 @@ main{
     position: relative;
     width: 150px;
     Height: 150px;
-    top: 80px;
-    left: 90px;
+    top: 105px;
+    left: 96px;
 }
 
 .bot_bot{
@@ -111,7 +111,7 @@ main{
     position: relative;
     width: 150px;
     Height: 150px;
-    top: 100px;
+    top: 125px;
     left: 50px;
 }
 
@@ -120,8 +120,8 @@ main{
     position: relative;
     width: 150px;
     Height: 150px;
-    top: 100px;
-    left: 70px;
+    top: 125px;
+    left: 73px;
 }
 
 .bot_box3{
@@ -129,8 +129,8 @@ main{
     position: relative;
     width: 150px;
     Height: 150px;
-    top: 100px;
-    left: 90px;
+    top: 125px;
+    left: 96px;
 }
 
 .bot_right{
@@ -138,8 +138,8 @@ main{
     position: relative;
     width: 615px;
     Height: 320px;
-    top: 80px;
-    left: 140px;
+    top: 105px;
+    left: 135px;
 }
 
 footer{
