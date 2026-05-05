@@ -1,0 +1,86 @@
+.wrap{
+    width: 1250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header{
+    display: flex;
+}
+
+.logo{
+    background-color: #EEEEE9;
+    width: 250px;
+    Height: 100px;
+}
+
+nav{
+    background-color: #D6CCC2;
+    width: 1000px;
+    Height: 100px;
+}
+
+main{
+    position: relative;
+}
+
+.top{
+    background-color: #F5ECE1;
+    width: 100%;
+    height: 440px;
+}
+
+.bot{
+    display: flex;
+}
+
+.left{
+    background-color: #E4D6CA;
+    width: 625px;
+    height: 440px;
+}
+
+.right{
+    background-color: #D5BEB1;
+    width: 625px;
+    height: 440px;
+}
+
+.aside1{
+    background-color: #866756;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+.aside2{
+    background-color: #866756;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+}
+
+/*
+.wrap에 부모요소 relative 주고 이렇게 하고 박스에 width, height, bgc 줌
+.absolute{
+    position: absolute;
+    width: 1250px;
+    top: calc(50% - 125px);
+    display: flex;
+    justify-content: space-between;
+}
+*/
+
+footer{
+    background-color: #D6CCC2;
+    width: 100%;
+    height: 100px;
+
+}
+
