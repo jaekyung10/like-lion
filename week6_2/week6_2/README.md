@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# 무료 공공 와이파이 조회 서비스
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 소개
 
-## Available Scripts
+공공데이터포털의 **행정안전부_무료와이파이정보 조회서비스 API**를 활용하여  
+지역명 또는 장소명을 검색하면 무료 공공 와이파이 설치 정보를 조회할 수 있습니다.
 
-In the project directory, you can run:
+사용자는 검색어를 입력하여 해당 지역의 공공 와이파이 설치 장소, 주소, 상세 위치, 설치 시설, 제공사 정보를 확인할 수 있습니다.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 사용한 API
 
-### `npm test`
+### 행정안전부_무료와이파이정보 조회서비스
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 제공기관: 행정안전부
+- 데이터 형식: JSON + XML
+- API 유형: REST
+- 주요 제공 데이터
+  - 설치 장소명
+  - 시도/시군구
+  - 도로명 주소
+  - 상세 위치
+  - 설치 시설
+  - 서비스 제공사
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API 선정 이유
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+무료 공공 외부에서 인터넷 연결이 필요한 상황에서 지역명이나 장소명을 검색해 무료 와이파이 설치 장소를 빠르게 확인할 수 있으면 유용하다고 판단하여 해당 API를 선택했습니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## API 발급 과정
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. 공공데이터포털에 로그인하여 `무료와이파이정보 조회서비스`를 검색합니다.
+2. **행정안전부_무료와이파이정보 조회서비스** 상세 페이지에 접속합니다.
+3. `활용신청` 버튼을 눌러 API 사용 신청을 진행합니다.
+4. 마이페이지의 개발계정에서 일반 인증키를 확인합니다.
+5. 발급받은 인증키를 API 요청 URL에 포함하여 데이터를 호출합니다.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 구현 기능
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 공공데이터 API 호출
+- 검색어 입력 기능
+- 지역명 또는 장소명 기준 데이터 검색
+- 검색 결과 개수 출력
+- 검색 결과 리스트 출력
+- 로딩 상태 표시
+- 검색 결과가 없을 경우 안내 문구 출력
