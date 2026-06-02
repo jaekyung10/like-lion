@@ -1,0 +1,126 @@
+.contact_wrap {
+    width: 414px;
+    height: 932px;
+    background-color: #F8F8F9;
+    position: relative;
+    overflow: hidden;
+
+    padding: 69px 21px 0;
+}
+
+.contact_prev_btn {
+    position: absolute;
+    top: 68px;
+    left: 29px;
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_prev_btn img {
+    width: 6px;
+    height: 12px;
+    object-fit: contain;
+}
+
+.contact_header {
+    text-align: center;
+}
+
+.contact_header h1 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+}
+
+.contact_profile {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_profile_img_box {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact_profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.contact_profile_img_box::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 150px;
+
+    background-color: rgba(30, 28, 28, 0.44);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.edit_icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    display: block;
+    z-index: 3;
+}
+
+.contact_info_list {
+    margin-top: 20px;
+    width: 354px;
+}
+
+.contact_info_item {
+    width: 354px;
+    height: 47px;
+
+    border-bottom: 0.5px solid #000000;
+}
+
+.contact_info_top {
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_info_top p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.contact_info_top a {
+    font-size: 10px;
+    font-weight: 700;
+    color: #31A05F;
+}
+
+.contact_info_item h2 {
+    margin-top: 4px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333333
+}
+
+.no_line {
+    border-bottom: none;
+}

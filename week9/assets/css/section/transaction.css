@@ -1,0 +1,80 @@
+.transaction_wrap {
+    width: 414px;
+    height: 932px;
+    background-color: #F8F8F9;
+    position: relative;
+    overflow: hidden;
+    padding: 69px 29px 0;
+}
+
+.transaction_prev_btn {
+    position: absolute;
+    top: 69px;
+    left: 29px;
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction_prev_btn img {
+    width: 6px;
+    height: 12px;
+    object-fit: contain;
+    margin-bottom: 22px;
+}
+
+.transaction_title {
+    margin-top: 22px;
+}
+
+.transaction_title h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+}
+
+.notification_list {
+    margin-top: 44px;
+    width: 354px;
+}
+
+.notification_item {
+    width: 354px;
+    height: 110px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 0.5px solid #000000;
+    margin-bottom: 30px;
+}
+
+.notification_img {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.notification_text {
+    margin-left: 13px;
+    padding-top: 10px;
+    width: 234px;
+    margin-top: 10px;
+}
+
+.notification_text p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.notification_item span {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 13px;
+    font-weight: 400;
+}

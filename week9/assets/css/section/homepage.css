@@ -1,0 +1,177 @@
+.home_wrap {
+    width: 414px;
+    height: 932px;
+    background-color: #F6F6F9;
+
+    position: relative;
+    overflow: hidden;
+
+    padding: 61px 31px;
+}
+
+.home_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.noti_img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.home_text {
+    margin-top: 14px;
+}
+
+.home_text h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+}
+
+.asset_box {
+    width: 354px;
+    height: 146px;
+    margin-top: 35px;
+    padding: 28px 25px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #31A078 0%, #31A05F 100%);
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.asset_box p {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.asset_box h2 {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.asset_box button {
+    margin-top: 60px;
+    width: 125px;
+    height: 40px;
+
+    background-color: #fff;
+    color: #31A078;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.best_plan {
+    margin-top: 23px;
+}
+
+.section_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_title h3,
+.investment_guide h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+
+.section_title a {
+    font-size: 18px;
+    color: #FE555D;
+}
+
+.coin_list {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.coin_list img {
+    width: 134px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.investment_guide {
+    margin-top: 51px;
+}
+
+.guide_item {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guide_text {
+    width: 261px;
+}
+
+.guide_text h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4F4F4F;
+}
+
+.guide_text p {
+    margin-top: 2px;
+    font-size: 14px;
+    color: #474747;
+}
+
+.guide_item img {
+    width: 61px;
+    height: 61px;
+    object-fit: cover;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 415px;
+    height: 75px;
+    background-color: #F6F6F9;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+    font-size: 12px;
+    color: #999999;
+}
+
+.footer_item img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.footer_item.active {
+    color: #31A063;
+}

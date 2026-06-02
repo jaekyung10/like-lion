@@ -1,0 +1,98 @@
+.account_wrap {
+    width: 414px;
+    height: 932px;
+    background-color: #fff;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prev_btn {
+    position: absolute;
+    top: 68px;
+    left: 29px;
+
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev_icon {
+    width: 6px;
+    height: 12px;
+    object-fit: contain;
+    display: block;
+}
+
+.account_text {
+    margin-top: 103px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.account_text2 {
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.create_account {
+    width: 343px;
+    margin-top: 87px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.create_account input {
+    width: 354px;
+    height: 60px;
+
+    border: 0.5px solid #828282;
+    border-radius: 20px;
+
+    padding: 0 25px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.create_account input::placeholder {
+    color: #828282;
+}
+
+.account_create_btn {
+    width: 354px;
+    height: 60px;
+    margin-top: 13px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #31A062;
+    color: #fff;
+
+    border-radius: 20px;
+    font-style: 17px;
+    font-weight: 400;
+}
+
+.account_text3 {
+    margin-top: 44px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #31A062;
+    text-align: center;
+}

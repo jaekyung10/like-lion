@@ -1,0 +1,156 @@
+.profile_wrap {
+    width: 414px;
+    height: 932px;
+    background-color: #F6F6F9;
+
+    position: relative;
+    overflow: hidden;
+
+    padding: 68px 29px;
+}
+
+.profile_prev_btn {
+    position: absolute;
+    top: 68px;
+    left: 29px;
+
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_prev_btn img {
+    width: 6px;
+    height: 12px;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 23px;
+}
+
+.profile_title {
+    margin-top: 26px;
+}
+
+.profile_title h1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.profile_user {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile_user h2 {
+    margin-top: 21px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.profile_user p {
+    margin-top: 7px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.profile_menu {
+    position: absolute;
+    top: 420px;
+    left: 30px;
+
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile_menu_item {
+    width: 354px;
+    height: 60px;
+
+    background-color: #fff;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 30px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.04);
+}
+
+.profile_menu_left {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.profile_menu_left img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.profile_menu_left p {
+    font-size: 17px;
+    font-weight: 700;
+    color: #333;
+}
+
+.next_icon {
+    margin-top: 20px;
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+}
+
+.profile_footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 415px;
+    height: 75px;
+
+    background-color: #F6F6F9;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile_footer_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: #999999;
+}
+
+.profile_footer_item img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.profile_footer_item p {
+    color: #999999;
+}
+
+.profile_footer_item.active p {
+    color: #31A063;
+}
