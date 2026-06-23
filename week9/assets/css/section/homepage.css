@@ -103,11 +103,37 @@
     overflow-x: scroll;
 }
 
-.coin_list img {
+.coin_list::-webkit-scrollbar {
+    display: none;
+}
+
+.plan_card {
     width: 134px;
     height: 170px;
-    object-fit: cover;
     border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.gold_plan {
+    background: linear-gradient(#F0C735, #D98F39);
+}
+
+.plan_title {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.plan_return {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 15px;
+    opacity: 0.75;
+    margin-top: 2px;
 }
 
 .investment_guide {
