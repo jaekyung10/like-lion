@@ -202,7 +202,7 @@ const Homepage = () => {
             </section>
 
             <section className="about_brand">
-                <img src={logo} className="logo" />
+                <img src={logo} alt="Open Fashion logo" className="logo" />
 
                 <p>
                     Making a luxurious lifestyle accessible<br />
